@@ -1,0 +1,21 @@
+---
+    elements:
+        - type: Repeatable
+          nested_name: bands
+          elements:
+              - type: Hidden
+                name: id
+              - name: band
+        - name: name
+        - type: Repeatable
+          nested_name: addresses
+          elements:
+              - type: Hidden
+                name: id
+              - name: address
+              - type: Block
+                nested_name: user
+                elements:
+                    - type: Hidden
+                      name: id
+                    - name: name

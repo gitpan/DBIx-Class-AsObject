@@ -1,0 +1,25 @@
+Changes
+lib/DBIx/Class/AsObject.pm
+Makefile.PL
+MANIFEST
+README
+t/00-load.t
+t/01-test.t
+t/asobject/dbic/testschema/user.yml
+t/boilerplate.t
+t/lib/DBICTestLib.pm
+t/lib/MySchema.pm
+t/lib/MySchema/Address.pm
+t/lib/MySchema/Band.pm
+t/lib/MySchema/HasMany.pm
+t/lib/MySchema/Master.pm
+t/lib/MySchema/Note.pm
+t/lib/MySchema/Schedule.pm
+t/lib/MySchema/Type.pm
+t/lib/MySchema/Type2.pm
+t/lib/MySchema/User.pm
+t/lib/MySchema/UserBand.pm
+t/pod-coverage.t
+t/pod.t
+t/var/test.db
+META.yml                                 Module meta-data (added by MakeMaker)
